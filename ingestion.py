@@ -4,7 +4,7 @@ ingestion.py : Document loading and chunking.
 Takes a PDF or text file and splits it into chunks.
 Each chunk is a passage that can be searched independently.
 
-In Sinequa's world: this is the data ingestion pipeline
+In entreprise search's world: this is the data ingestion pipeline
 that indexes enterprise content (SharePoint, Confluence,
 email, databases) into the search platform.
 """
@@ -16,7 +16,7 @@ from pathlib import Path
 def load_pdf(filepath: str) -> str:
     """
     Extract text from a PDF file.
-    In production Sinequa: handles 100+ file formats
+    In production : handles 100+ file formats
     including Office, PDF, HTML, email.
     """
     try:
