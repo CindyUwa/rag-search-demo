@@ -12,9 +12,6 @@ RAG = Retrieval + Augmented + Generation
   Augmented   : add those passages as context
   Generation  : LLM generates answer grounded in context
 
-In Sinequa's world: this is the AI Assistant layer
-that sits on top of the search engine and answers
-questions using retrieved enterprise content.
 """
 
 import anthropic
